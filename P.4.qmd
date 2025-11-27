@@ -104,14 +104,7 @@ Este procedimiento descompone una matriz en el producto de tres matrices con car
 
 Partimos de una matriz de datos original:
 
-```{r}
-datos_filtrados <- datos_filtrados
-# ANTES: Verificar cantidad de NA por variable
-cat("=== CANTIDAD DE NA POR VARIABLE (ANTES) ===\n")
-na_antes <- sapply(datos_filtrados, function(x) sum(is.na(x)))
-print(na_antes)
 
-```
 
 $$
 X_{n \times p} = \{x_{ij}\}
